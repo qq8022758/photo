@@ -1,0 +1,23 @@
+#slider-range-min{
+margin: 10px 20px;
+}
+
+.bottom .prev{
+	width: 44px;
+height: 50px;
+	background: url(../../../images/play-stop2.png) no-repeat  -55px -50px;
+	cursor:pointer;
+	position:fixed;
+	top:270px;
+	left:300px;
+}
+
+.bottom .next{
+	width: 44px;
+height: 50px;
+	background: url(../../../images/play-stop.png) no-repeat;
+	cursor:pointer;
+		position:fixed;
+	top:270px;
+	right:270px;
+}

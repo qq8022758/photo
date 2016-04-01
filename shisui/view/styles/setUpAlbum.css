@@ -1,0 +1,158 @@
+/* CSS Document */
+/*--------------用户登录注册模块--------------*/
+.popframe{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:10086px;
+	background-color:rgba(0,0,0,0.5);
+	z-index:9999999;
+	display:none;
+}
+
+.pop{
+	margin:100px auto;
+}
+
+.closepop{
+	width:16px;
+	height:16px;
+	background:url(../images/close_hui.png) no-repeat center center;
+	cursor:pointer;
+}
+
+.closepop:hover{
+	background:url(../images/close_blue.png) no-repeat center center;
+}
+
+#tab_setUpAlbum{
+	width:350px;/***************************400px**********/
+	margin: 20px auto 30px;
+	position:relative;
+}
+
+#tab_setUpAlbum label,#tab_setUpAlbum input,#tab_setUpAlbum textarea,#tab_setUpAlbum select{
+   display:inline-block;
+   float:left;
+}
+
+#tab_setUpAlbum .headBox{
+	height:50px;
+	line-height:50px;
+	border:1px #d4d4d4 solid;
+	border-top-left-radius:10px;
+    border-top-right-radius:10px;
+	width:348px;
+	background:#fafafa;	
+}
+
+#tab_setUpAlbum .headBox label{
+    display:inline-block;
+	width:100px;
+	font-size:9px;
+	color:#333;
+	font-weight: bold;
+	margin:auto 10px;
+	margin-right:212px;
+}
+
+#tab_setUpAlbum .headBox div{
+    display:inline-block;	
+}
+	
+#tab_setUpAlbum form{
+    min-height: 210px;
+    width:328px ;
+    padding:20px 10px;
+    border-left:1px solid #d4d4d4;
+    border-right:1px solid #d4d4d4;
+    font-family: Arial,"Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.0em;
+	background:#fafafa;
+	border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+#tab_setUpAlbum form div{
+    width: 328px;
+    margin-bottom: 10px;
+	float:left;
+}
+
+#tab_setUpAlbum form label{
+	font-weight: bold;
+    line-height: 25px;
+    font-size: 8pt;
+    margin: 0px;
+	color:#666;
+	width:50px;
+	float:left;
+	text-align:right;
+}
+
+#tab_setUpAlbum input,#tab_setUpAlbum textarea,#tab_setUpAlbum select{
+    border: 1px solid #e5e5e5;
+    background-color: #fbfbfb;
+    text-align: left;
+    width: 200px;
+    height: 25px;
+    line-height: 25px;
+    -o-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -ms-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    -ms-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+    padding: 0;
+    border-radius: 3px;
+	margin:auto 5px auto 15px;
+}
+
+#tab_setUpAlbum select{
+	width:100px;
+}
+
+#tab_setUpAlbum textarea{
+	height:75px;
+}
+
+#tab_setUpAlbum input[type="text"]:hover,#tab_setUpAlbum input[type="password"]:hover{
+    border-color: #71d4ff;
+}
+
+
+
+.buttonBox button{
+    margin-left: 10px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border:1px solid #ccc;
+    border-bottom-color: #b3b3b3;
+    -o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    padding: 3px 0;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    width: 65px;
+	float:right;
+}
+
+
+.buttonBox button:hover{
+    /*IE6下仅支持a Hover*/
+    background-color: #bcf4f7;
+    background-color:#d9d9d9;
+}
+

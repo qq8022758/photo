@@ -1,0 +1,158 @@
+/* CSS Document */
+
+.classification{
+  width:770px;	
+  background:wihte;
+}
+.classification .main{
+  margin-top:10px;
+  width:770px;	
+}
+.classification .type .title{
+	color:#FFF;
+	width:300px;
+	padding-bottom:5px;
+	border-bottom:1px solid #FFF;
+}
+
+.classification .selectlabel select{
+	display:inline-block;
+    border: 1px solid #e5e5e5;
+    background-color: #fbfbfb;
+    text-align: left;
+    width: 120px;
+    height: 25px;
+    line-height: 25px;
+    -o-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -ms-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    -ms-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+    padding: 0;
+    border-radius: 3px;
+	margin:auto 5px 10px 0px
+}
+
+
+ul.portfolio { 
+	float: left; 
+	list-style: none; 
+	margin: 0;
+	padding: 0; 
+	width:770px;
+/*	background:red;*/
+}
+
+ul.portfolio li { 
+	background: rgba(222,216,216,.9);
+	background:#fff;
+	float: left; 
+	margin: 0 5px 20px 5px;
+	width: 124px;
+	padding:10px;
+	padding-bottom:0;
+	 -webkit-box-shadow: 1px 1px 1px 1px #C0BEBF; 
+-moz-box-shadow: 1px 1px 1px 1px #C0BEBF;
+box-shadow: 1px 1px 1px 1px #C0BEBF;
+	padding-top:5px;
+}
+
+ul.portfolio li p span {
+	font-weight: normal;
+	display: inline-block;
+	color: #999;
+    line-height:25px;
+/*	background:blue;*/
+}
+
+ul.portfolio li p span:first-child{
+   width:85px;
+   color:#3c3434;
+   font-weight:bold;
+
+/*   background:yellow;*/
+}
+ul.portfolio li p span.photoNum{
+   width: 39px;
+   text-align:right;
+      line-height:25px;
+
+}
+
+
+ul.portfolio a { 
+	display: block; 
+	width: 100%; 
+}
+
+ul.portfolio a:hover { 
+	text-decoration: none; 
+}
+
+ul.portfolio img {  
+	display: block; 
+	padding-bottom: 5px; 
+	width: 124px;
+	height:124px;
+}
+
+ul.portfolio img:hover {  
+	display: block; 
+	padding-bottom: 5px;
+	opacity: 0.8;
+}
+ul.portfolio .change{
+	margin-right:84px;
+	cursor:pointer;
+   display:inline-block;
+   height:20px;
+   width:20px;
+   background:url(../../../images/wand.png) no-repeat 0px -20px;	
+}
+
+ul.portfolio .delete{
+		cursor:pointer;
+   display:inline-block;
+   height:20px;
+   width:20px;
+   background:url(../../../images/delete.png) no-repeat 0px -20px;	
+}
+
+ul.portfolio .change:hover{
+   background:url(../../../images/wand.png) no-repeat 0px 0px;	
+}
+
+ul.portfolio .delete:hover{
+   background:url(../../../images/delete.png) no-repeat 0px 0px;	
+}
+/* Single View Gallery - Column*/
+
+
+
+ul.portfolio-one  {
+	list-style-type: none;
+	margin: 20px 0 0 0;
+	padding: 0; 
+	display: block;
+}
+
+ul.portfolio-one li {
+	background: #fff;
+	padding: 10px;
+	width: 730px;
+	margin-bottom: 20px;
+}
+
+ul.portfolio-one h2 {
+	margin: 0 0 10px 0;
+}
+
+ul.portfolio-one img {
+	margin-bottom: 10px;
+
+}

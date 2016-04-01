@@ -1,0 +1,293 @@
+/* CSS Document */
+
+#friend_tab{
+	
+	
+}
+
+.display{
+   display:none;	
+}
+
+
+
+.fans_tab {
+  position: relative;
+  height: 571px;
+  width: 770px;
+  margin-bottom: 20px;
+}
+
+.fans_tab ul {
+  border-top: 1px solid #DEDEDC;
+  border-left: 1px solid #DEDEDC;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background:white;
+}
+
+.fans_tab ul li {
+  width: 190px;
+  height: 228px;
+  text-align: center;
+  padding: 32px 0 24px;
+  float: left;
+  border-right: 1px solid #DEDEDC;
+  border-bottom: 1px solid #DEDEDC;
+}
+
+.fans_tab ul li h3 {
+  color: #565758;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: normal;
+  margin-bottom: 14px;
+}
+
+a {
+  outline: 0;
+  cursor: pointer;
+  text-decoration: none;
+  color: #515151;
+/*  position:relative;*/
+}
+
+
+.concern{
+	width:70px;
+	position:absolute;
+	top:140px;
+	left:60px;
+	display: inline-block;
+	line-height: 24px;
+	background: #EDF2F5;
+	color: #9e9e9e;
+	padding: 0 10px;
+	border-radius:3px;
+}
+
+.fans_tab .h_img {
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.fans_tab .h_img p {
+  display: table-cell;
+  text-align: center;
+  width: 110px;
+  height: 110px;
+  line-height: 100px;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.fans_tab ul li h4 {
+  font-size: 18px;
+  font-family: "KaiTi","BiauKai","楷体","楷体_GB2312",serif;
+  font-weight: normal;
+  line-height: 44px;
+  height: 44px;
+  margin-bottom: 12px;
+}
+
+.fans_tab .article_img img {
+  width: 110px;
+  height: 110px;
+}
+
+
+.fans_tab li .recommend_meta {
+  display: inline-block;
+  line-height: 24px;
+  background: #EDF2F5;
+  color: #9e9e9e;
+  padding: 0 10px;
+}
+
+
+/******************好友相册************************/
+#fans_album h2,#fans_photo h2{
+/* display: inline-block; */
+	background: url("../images/header-splitter.png") 0 33px repeat-x;
+	padding-bottom: 20px;
+	line-height: 22px;
+	color: #3A3737;
+	font-size: 22px;
+	margin: 15px 11px;
+}
+
+.post-item .post-thumb a{
+   position:relative;
+	
+}
+.post-item .post-thumb a span{
+	position:absolute;
+	bottom:3px;
+	display:inline-block;
+	width:30px;
+	height:30px;
+}
+
+.shareAndHit{
+	   position:relative;
+}
+.post-item .post-thumb a  span.shareToShiSuiQiang{
+    left:0;
+	background:url("../images/forward.png") no-repeat 0px 0px;
+}
+
+.post-item .post-thumb a  span.hit{
+    right:0;
+	background:url("../images/like.png") no-repeat 0px 0px;
+}
+
+.disblock{
+	display:none;	
+}
+
+
+/******************采集照片************************/
+
+/* CSS Document */
+
+/* CSS Document */
+/*--------------用户登录注册模块--------------*/
+
+
+#tab_CaiJiXiangCe{
+	width:350px;/***************************400px**********/
+	margin: 20px auto 30px;
+	position:relative;
+}
+
+#tab_CaiJiXiangCe label,#tab_CaiJiXiangCe input,#tab_CaiJiXiangCe textarea,#tab_CaiJiXiangCe select{
+   display:inline-block;
+   float:left;
+}
+
+#tab_CaiJiXiangCe .headBox{
+	height:50px;
+	line-height:50px;
+	border:1px #d4d4d4 solid;
+	border-top-left-radius:10px;
+    border-top-right-radius:10px;
+	width:348px;
+	background:#fafafa;	
+}
+
+#tab_CaiJiXiangCe .headBox label{
+    display:inline-block;
+	width:100px;
+	font-size:9px;
+	color:#333;
+	font-weight: bold;
+	margin:auto 10px;
+	margin-right:212px;
+}
+
+#tab_CaiJiXiangCe .headBox div{
+    display:inline-block;	
+}
+	
+#tab_CaiJiXiangCe form{
+    min-height: 130px;
+    width:308px ;
+    padding:20px 20px;
+    border-left:1px solid #d4d4d4;
+    border-right:1px solid #d4d4d4;
+    font-family: Arial,"Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.0em;
+	background:#fafafa;
+	border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+#tab_CaiJiXiangCe form div{
+    width: 308px;
+    margin-bottom: 10px;
+	float:left;
+}
+
+
+#tab_CaiJiXiangCe form div.XinJianXiangCeBox{
+    width: 308px;
+    margin-bottom:30px;
+	float:left;
+}
+
+#tab_CaiJiXiangCe form label{
+	font-weight: bold;
+    line-height: 25px;
+    font-size: 8pt;
+    margin: 0px;
+	color:#666;
+	width:100px;
+	float:left;
+	text-align:right;
+}
+
+#tab_CaiJiXiangCe input,#tab_CaiJiXiangCe textarea,#tab_CaiJiXiangCe select{
+    border: 1px solid #e5e5e5;
+    background-color: #fbfbfb;
+    text-align: left;
+    width: 170px;
+    height: 25px;
+    line-height: 25px;
+    -o-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -ms-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    -ms-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
+    padding: 0;
+    border-radius: 3px;
+	margin:auto 5px auto 15px;
+}
+
+#tab_CaiJiXiangCe select{
+	width:170px;
+}
+
+#tab_CaiJiXiangCe input[type="text"]:hover{
+    border-color: #71d4ff;
+}
+
+.buttonBox button{
+    margin-left: 10px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    border:1px solid #ccc;
+    border-bottom-color: #b3b3b3;
+    -o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    padding: 3px 0;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    width: 65px;
+	float:right;
+}
+
+
+.buttonBox button:hover{
+    /*IE6下仅支持a Hover*/
+    background-color: #bcf4f7;
+    background-color:#d9d9d9;
+}
+
+ 

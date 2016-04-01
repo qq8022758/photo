@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.main{
+  width:770px;	
+  background-color:white;
+padding-top: 10px;
+  
+}
+.date .main .pic{
+	float:left;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+.date .main .pic img{
+	width:100px;
+    height:100px;
+}
+
+#slider-range-min{
+margin: 10px 20px;
+}
+.bottom .prev{
+	width: 44px;
+height: 50px;
+	background: url(../../../images/play-stop2.png) no-repeat  -55px -50px;
+	cursor:pointer;
+	position:fixed;
+	top:270px;
+	left:300px;
+}
+
+.bottom .next{
+	width: 44px;
+height: 50px;
+	background: url(../../../images/play-stop.png) no-repeat;
+	cursor:pointer;
+		position:fixed;
+	top:270px;
+	right:270px;
+}

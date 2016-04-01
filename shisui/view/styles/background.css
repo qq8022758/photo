@@ -1,0 +1,167 @@
+/*--------------------------------*/
+/*  GENERAL STRUCTURE             */
+/*--------------------------------*/ 
+
+img.bgimage {
+	display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+	width: 100%;
+    z-index: 1;
+}
+#background {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+body span#body_loader {
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-indent: -9999px;
+	background: url(../images/ajax-loader.gif) no-repeat center center;
+	display: block;
+	z-index: 0;
+}
+
+.overlay {
+    background: url(../images/pattern.png) repeat scroll left top transparent;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.pattern div {
+    background: none repeat scroll 0 0 #000000;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+    z-index: 10;
+}
+
+.direction-box {
+	position:absolute;
+	right:50px;
+	text-align: center;
+	bottom:150px;
+	z-index:4;
+}
+
+.direction {
+	text-align:center;
+	width: 130px;
+}
+
+#controls-wrapper {
+	bottom: 50px;
+    height: 220px;
+    overflow: hidden;
+    position: fixed;
+    right: 20px;
+    width: 100%;
+}
+
+.direction-box .next,
+.direction-box .prev {
+	background:url(../images/direction-arrow.png) no-repeat top left;
+	background-color: rgba(0,0,0,.5);
+	width:13px;
+	cursor:pointer;
+	position:absolute;
+	height:50px;
+	width: 33px;
+	-webkit-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-o-transition: all .25s linear;
+	transition: all .25s linear;
+}
+
+.direction-box .prev {left:0;}
+
+.direction-box .next {
+	right:10px;
+	background-position:-87px top;	
+}
+
+.ie7 .direction-box .next,
+.ie7 .direction-box .prev,
+.ie8 .direction-box .next,
+.ie8 .direction-box .prev {
+    background: url(../images/direction-arrow-ie.png) no-repeat scroll left top;
+    cursor: pointer;
+    height: 50px;
+    position: absolute;
+    width: 33px;
+}
+
+.ie7 .direction-box .prev:hover,
+.ie8 .direction-box .prev:hover {background-position:0 -100px;}
+.ie7 .direction-box .next:hover,
+.ie8 .direction-box .next:hover {background-position: right -100px;}
+
+.ie7 .direction-box .next,
+.ie8 .direction-box .next {
+	right:10px;
+	background-position:-87px top;	
+}
+
+.direction-box .direction-play {
+	width:34px;
+	height:50px;
+	position: absolute;
+	left:50%;
+	margin-left:-32px;
+	padding: 0 10px;
+	line-height: 50px;
+	display: block;
+	font-size:1.5em;
+	background:url(../images/point-gray.png) repeat;
+	color:#d1d1d1;
+	font-family: Georgia;
+}
+
+.ie7 .post-item .curtain,
+.ie7 .gallery-item .curtain,
+.ie7 .imagelist .curtain,
+.ie8 .post-item .curtain,
+.ie8 .gallery-item .curtain,
+.ie8 .imagelist .curtain {
+	background-color: rgb(0,0,0);
+	filter: alpha(opacity=0);
+}
+
+.direction-box .direction-play .play,
+.direction-box .direction-play .pause {
+	position: relative;
+	right: 10px;
+	display: block;
+	width: 44px;
+	height: 50px;
+	background: url(../images/play-stop.png) no-repeat;
+}
+
+.direction-box .direction-play .play:hover {
+	background-position: -54px 0;
+}
+
+.direction-box .direction-play .pause:hover {
+	background-position: -54px -50px;
+}
+
+.direction-box .direction-play .pause {
+	background-position: 0 -50px;
+}
+
+.direction-box .prev:hover,
+.direction-box .next:hover {
+	background-color: rgba(0,0,0,.7);
+}

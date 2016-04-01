@@ -1,0 +1,286 @@
+/* Hardknocks Agency Template
+    Document   : layout.css
+------------------------------------------------------------------------------------------------------------------
+*/
+
+body {
+	background: #333;
+	font-family: Helvetica, sans-serif;
+	color: #3c3434;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+a:active {
+	text-decoration: none;
+	color: #666;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #dc5038;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #666;
+}
+
+#container {
+	position: relative;
+	width: 1080px;
+	margin: 20px;
+}
+
+/* Sideview contains the Logo and navigation */
+.sideview {
+	position: relative;
+	width: 250px;
+	float: left;
+	position: fixed;
+	top: 20px;
+	z-index:8
+}
+
+.logo{
+    z-index: 10;	
+	position:relative;
+}
+.menu {
+	background: url("../images/dark-overlay.png") repeat;
+	width: 230px;
+	padding: 10px;
+	position: relative;
+    z-index: 4;
+}
+
+
+.shisuiqiang{
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	color: #666;
+	font-weight:bold;
+}
+
+.shisuiqiang div{
+	background-color:#1f1f1f;
+	font-size:16px;
+	color:#999;
+	display:block;
+	line-height:30px;	
+	cursor:pointer;
+}
+
+.shisuiqiang div:hover{
+	background-color:#fff;
+}
+
+.shisuiqiang div span:first-child {
+	padding:0;
+	margin:0;
+	color:#dc5038;
+}
+
+.shisuiqiang div span.sui {
+	padding:0 5px;
+	color:#499400;
+}
+
+.shisuiqiang div span.qiang {
+	padding:0;
+	margin:0;
+	color:#df8300;
+}
+
+.shisuiqiang div span:first-child:hover{
+	padding:0;
+	margin:0;
+	color:#499400;
+}
+
+.shisuiqiang div span.sui:hover {
+	padding:0 5px;
+	color:#df8300;
+}
+
+.shisuiqiang div span.qiang:hover {
+	padding:0;
+	margin:0;
+	color:#dc5038;
+}
+
+
+/* Sideview contains the login and register */
+.login_and_register{
+	background: rgba(14,14,14,.7);
+	width: 228px;
+	padding: 10px;
+	background: url(../images/bg_footer.png) repeat left top;
+	border: 1px solid #0c0c0c;
+	position:fixed;
+	bottom: 0;
+	left:20px;
+	z-index:3;
+}
+
+.huck{
+	width: 30px;
+	height: 32px;
+	float: left;
+	left: -20px;
+	top: 18px;
+	position: absolute;
+	display: inline-block;
+	background: url(../images/post-icon.gif) no-repeat 0px -32px;	
+}
+
+
+input[type="text"], input[type="password"], input[type="email"], input[type="username"],select {
+	border: 1px solid #1e1e1e;
+	padding: 11px 10px;
+	outline: none;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	font: 11px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #3d3d3d;
+	margin: 0;
+	width: 330px;
+	max-width: 100%;
+	display: block;
+	margin-bottom: 20px;
+	background: #101010;
+	box-shadow: inset 0px 1px 2px #000;
+}
+
+.login_form select#sex{
+	margin-bottom:5px !important;
+}
+
+input.bar{
+    width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	margin-bottom: 10px;	
+}
+
+.rc-button{
+	background-color: #00bccf !important;
+	cursor: pointer;
+	display: inline-block;
+	padding: auto 15px;
+	height: 32px;
+	width:230px;
+	font-size: 18px;
+	border-radius: 3px;
+	color: #fff !important;
+	text-transform: uppercase;
+	border: none;
+	box-shadow: inset 0px 1px 1px #fff;
+	font-family: 'Ropa Sans', sans-serif;
+	background: url("../images/button.png") repeat-x bottom;	
+}
+
+.rc-button:hover{
+   background-image: none;	
+}
+
+input[type="checkbox"] { 
+	font-family: 宋体; 
+	font-size: 12px; 
+	color: #000000; 
+	border: 0px;
+	background-color: #DBFBF7; 
+	float:right;
+}
+
+.admintext{
+	color:#666;
+	font-size:12px;
+	display:inline-block;
+	float:right;
+}
+
+.not_registed {
+    display:inline-block;	
+    float:right;
+	height:18px;
+}
+
+.not_registed .first{
+   color:#669;
+   font-size:12px;
+   padding-left:24px;	
+}
+
+.not_registed .second{
+   cursor:pointer;
+   color:#666;
+   font-size:11px;
+}
+
+.not_registed .second:hover{
+  	color:#dc5038;
+}
+
+#login_and_register .copyright {
+	width:130px;
+	height:18px;
+	padding:0 50px;
+	padding-top:10px;
+	font-style: italic;
+	margin-top:10px;
+	text-align:center;
+	border-top: 1px solid #2b2b2b;
+}
+
+#login_and_register .copyright li:first-child {
+	background:none;
+	padding:0;
+	margin:0;
+}
+
+#login_and_register .copyright li {
+	background:url("../images/point.png") no-repeat left center;
+	padding-left:5px;
+	margin-left:5px;
+	float:left;
+	display:inline-block;
+	color:#838282;
+}
+
+.ie7 #login_and_register .copyright li {
+	margin-left: 2px;
+}
+
+#out .shezhi{
+	display:inline-block;
+	margin:auto 10px;
+	width:18px;
+	height:18px;
+	background:url("../images/cog1.png") no-repeat center center;
+	cursor:pointer;
+}
+
+#out .shezhi:hover{
+	background:url("../images/cog.png") no-repeat center center;
+}
+
+#out a{
+	display:inline-block;
+	margin-left:10px;
+}
+
+.userName{
+  width: 40px;
+  margin-left: 15px;
+  display: inline-block;
+  font-size: 15px;	
+}

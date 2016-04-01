@@ -1,0 +1,52 @@
+/* CSS Document */
+
+.content_inner {
+	 height: 760px;
+	 float: left; 
+	list-style: none; 
+	margin: 0;
+	padding: 0; 
+	width:765px;
+	padding-left:5px;
+	background:white;
+ }
+.pf_col_2 .post-item:nth-child(2n) {
+	//margin-right:0;	
+}
+
+.pf_col_2 .post-item {
+    float: left;
+    margin-right: 5px;
+    width: 250px;
+	padding-bottom:0;
+	padding-top:5px;
+}
+
+.post-item .post-thumb a{
+   position:relative;
+	
+}
+.post-item .post-thumb a span{
+	position:absolute;
+	bottom:3px;
+	display:inline-block;
+	width:30px;
+	height:30px;
+}
+
+.shareAndHit{
+	   position:relative;
+}
+.post-item .post-thumb a  span.shareToShiSuiQiang{
+    left:0;
+	background:url("../images/forward.png") no-repeat 0px 0px;
+}
+
+.post-item .post-thumb a  span.hit{
+    right:0;
+	background:url("../images/like.png") no-repeat 0px 0px;
+}
+
+.disblock{
+	display:none;	
+}
